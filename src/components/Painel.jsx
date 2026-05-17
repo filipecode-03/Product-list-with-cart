@@ -10,7 +10,7 @@ function Painel({ cart, total, removeItem, openModal }) {
   )
   
   return (
-    <aside className="bg-white mt-10 shadowB p-6 lg:p-8 rounded-2xl h-fit lg:sticky lg:top-6 lg:w-120">
+    <aside className="bg-white mt-10 shadowB p-6 lg:p-8 rounded-2xl h-fit lg:sticky lg:top-6 lg:max-w-150">
       <h2 className="font-bold text-[#C93E11] text-[30px] mb-6">
         Your Cart ({totalItems})
       </h2>

@@ -43,7 +43,7 @@ function Produtos({ products, cart, addToCart, increaseQuantity, decreaseQuantit
                 {/* BUTTON */}
                 <div className="absolute -bottom-5 left-1/2 -translate-x-1/2">
                   {quantity === 0 ? (
-                    <button onClick={() => addToCart(product)} className="bg-white border border-[#AD8A85] hover:border-[#C83B0E] hover:text-[#C83B0E] transition rounded-full px-6 py-3 flex items-center gap-2 font-semibold shadowB cursor-pointer">
+                    <button onClick={() => addToCart(product)} className="bg-white border border-[#AD8A85] hover:border-[#C83B0E] hover:text-[#C83B0E] transition rounded-full px-6 py-3 flex items-center justify-center gap-2 w-45 font-semibold shadowB cursor-pointer">
                       <img src={cartIcon} alt="cart" />
                       Add to Cart
                     </button>

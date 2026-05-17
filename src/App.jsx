@@ -100,8 +100,8 @@ function App() {
 }, [isModalOpen]);
 
   return (
-    <main className="font-['Red_Hat_Text'] px-8 lg:pl-20 py-6 lg:py-12 lg:pb-25">
-        <div className="lg:grid lg:grid-cols-[1fr_580px] lg:gap-8">
+    <main className="font-['Red_Hat_Text'] px-8 py-6 lg:px-8 lg:py-12 max-w-350 mx-auto">
+        <div className="lg:grid lg:grid-cols-[1fr_380px] lg:gap-8 lg:items-start">
           <Produtos
             products={data}
             cart={cart}
